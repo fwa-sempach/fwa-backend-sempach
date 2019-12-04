@@ -1,0 +1,5 @@
+Hallo {user}
+
+Diese Email wurde an die neue Emailadresse des Benutzers {user} gesendet.
+
+Dies ist eine automatisch generierte Nachricht - bitte nicht antworten.

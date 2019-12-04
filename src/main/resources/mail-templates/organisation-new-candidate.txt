@@ -1,0 +1,23 @@
+Sehr geehrte Organisationsvertreterin / Sehr geehrter Organisationsvertreter
+
+{participant.firstname} {participant.lastname} hat sich auf Ihr Inserat "{ad.title}" gemeldet!
+Beachten Sie die folgenden Angaben der Bewerberin oder des Bewerbers.
+
+Vorname: {participant.firstname}
+Nachname: {participant.lastname}
+Adresse: {participant.street} {participant.house_nr}, {participant.zip} {participant.city}
+E-Mail: {participant.email}
+Telefon: {participant.phone}
+
+Fähigkeiten:
+{participant.skills}
+
+Bemerkungen:
+{participant.annotation}
+
+
+Melden Sie sich baldmöglichst bei Ihrer Bewerberin / Ihrem Bewerber
+und klären Sie das weitere Vorgehen. Viel Erfolg!
+
+
+Dies ist eine automatisch generierte Nachricht - bitte nicht antworten.

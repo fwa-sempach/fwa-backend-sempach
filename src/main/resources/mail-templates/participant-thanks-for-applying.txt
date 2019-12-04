@@ -1,0 +1,9 @@
+Hallo {participant.firstname} {participant.lastname}
+
+Die Organisation "{organisation.name}" hat Ihre Bewerbung auf
+das Inserat "{ad.title}" erhalten und wird sich bald bei Ihnen melden.
+
+Vielen Dank für Ihr Interesse & Engagement!
+
+
+Dies ist eine automatisch generierte Nachricht - bitte nicht antworten.

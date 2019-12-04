@@ -1,0 +1,37 @@
+configuration:
+  name: default
+
+  properties:
+    property:
+      - name: log-path
+        value: logs
+      - name: layout
+        value: "%d [%t] %-5level: %msg%n%throwable"
+
+  appenders:
+    Console:
+      name: console
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: ${layout}
+
+    RollingFile:
+      name: rollingFile
+      fileName: "${log-path}/fwa.log"
+      filePattern: "${log-path}/archive/fwa-%d{yyyy-MM-dd}.log.gz"
+      PatternLayout:
+        pattern: ${layout}
+      Policies:
+        CronTriggeringPolicy:
+          schedule: "0 0 0 * * ?"
+        SizeBasedTriggeringPolicy:
+          size: 10M
+      DefaultRollOverStrategy:
+        max: 14
+
+  loggers:
+    Root:
+      level: info
+      appender-ref:
+        - ref: console
+        - ref: rollingFile

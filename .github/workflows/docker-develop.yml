@@ -1,0 +1,23 @@
+name: Build and Publish Docker Image Latest
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Publich Docker
+      uses: elgohr/Publish-Docker-Github-Action@2.9
+      with:
+        name: fwa-sempach/fwa-backend-sempach/fwa-backend-sempach:latest
+        # The login username for the registry
+        username: ${{ secrets.DOCKER_USERNAME }}
+        # The login password for the registry
+        password: ${{ secrets.GITHUB_TOKEN }}
+        # Use registry for pushing to a custom registry
+        registry: docker.pkg.github.com
+    

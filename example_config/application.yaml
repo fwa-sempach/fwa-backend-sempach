@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+datasource:
+  hibernate.connection.url: jdbc:postgresql://<hostname>:<port>/<database-name>
+  hibernate.connection.username: <username>
+  hibernate.connection.password: <password>
+
+  environment:
+    frontend-url: http://localhost:4200
+
+  mail:
+    smtp:
+      host: <smtp-server>
+      user: <smtp-username>
+      password: <smtp-password>
+      port: 587
+      auth: true
+      starttls.enable: true
+
+  space:
+    accessKey: <s3-access-key>
+    secretKey: <s3-access-secret>
+    endPoint: <s3-endpoint>
+    region: <s3-region>
+    bucket: <s3-bucket>
+    cdnUrl: <cdn-url>

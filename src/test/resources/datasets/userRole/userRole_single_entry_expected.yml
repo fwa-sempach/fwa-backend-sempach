@@ -1,0 +1,13 @@
+users:
+ - id: 3
+   username: 'user'
+   pass: 'yeah!'
+   salt: 'salty'
+
+user_role:
+ - id: 1
+   user_id: 3
+   role_code: ADMIN
+ - id: 2
+   user_id: 3
+   role_code: ORG

@@ -1,0 +1,109 @@
+ad:
+ - id: 1
+   offer_id: 1
+   image_id: 1
+   title: irgendjemand_gesucht
+   number_of_volunteers_needed: 2
+   release_date: 2018-05-09
+   valid_until: 2019-05-09
+   active: true
+   deleted: false
+ - id: 2
+   offer_id: 1
+   image_id: 1
+   title: irgendjemand_gesucht
+   number_of_volunteers_needed: 2
+   release_date: 2018-05-09
+   valid_until: 2019-05-09
+   active: true
+   deleted: false
+
+task:
+ - id: 1
+   ad_id: 1
+   description: task1
+   deleted: false
+ - id: 2
+   ad_id: 2
+   description: task2
+   deleted: false
+ - id: 3
+   ad_id: 1
+   description: task3
+   deleted: false
+
+basic_condition:
+ - id: 1
+   ad_id: 1
+   description: bc1
+   deleted: false
+ - id: 2
+   ad_id: 1
+   description: bc2
+   deleted: false
+ - id: 3
+   ad_id: 2
+   description: bc3
+   deleted: false
+ - id: 4
+   ad_id: 1
+   description: newBC
+   deleted: false
+ - id: 5
+   ad_id: 1
+   description: newBC2
+
+offer:
+ - id: 1
+   organisation_id: 6
+   category_id: 1
+   contact_person_id: 1
+   image_id: 1
+   title: title
+   description: desc
+   active: true
+   deleted: false
+
+organisation:
+ - id: 6
+   account_id: 1
+   contact_person_id: 1
+   image_id: 1
+   org_name: name
+   description: desc
+   website_url: url
+   deleted: false
+   verified: true
+
+category:
+- id: 1
+  category_name: cat1
+  deleted: false
+
+person:
+- id: 1
+  firstname: hans
+  lastname: yolo
+  city: baar
+  zip: 6340
+  street: weg
+  house_nr: 42
+  phone: 041 760
+  email: hans.yolo@gmail.com
+  deleted: false
+
+image:
+- id: 1
+  filename: test.jpg
+
+users:
+- id: 1
+  username: name
+  pass: saeginoed
+  salt: ja
+
+
+
+
+
+

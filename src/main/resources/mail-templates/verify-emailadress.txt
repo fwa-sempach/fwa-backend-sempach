@@ -1,0 +1,7 @@
+Hallo
+
+Bitte bestätigen Sie Ihre Emailadresse, indem sie auf den folgenden Link klicken:
+
+{url}
+
+Dies ist eine automatisch generierte Nachricht - bitte nicht antworten.

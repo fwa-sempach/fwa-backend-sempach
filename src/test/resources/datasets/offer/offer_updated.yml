@@ -1,0 +1,60 @@
+category:
+- id: 1
+  category_name: cat1
+  deleted: false
+
+person:
+- id: 1
+  firstname: hans2
+  lastname: yolo2
+  city: baar
+  zip: 6340
+  street: weg
+  house_nr: 42
+  phone: 041 760
+  email: hans.yolo@gmail.com
+  deleted: false
+
+image:
+- id: 1
+  filename: test2.jpg
+
+users:
+- id: 1
+  username: name
+  pass: saeginoed
+  salt: ja
+
+organisation:
+ - id: 6
+   account_id: 1
+   contact_person_id: 1
+   image_id: 1
+   org_name: name
+   description: desc
+   website_url: url
+   deleted: false
+   verified: true
+
+offer:
+ - id: 1
+   organisation_id: 6
+   category_id: 1
+   contact_person_id: 1
+   image_id: 1
+   title: title2
+   description: desc2
+   active: true
+   deleted: false
+
+ad:
+
+basic_condition:
+
+task:
+
+
+
+
+
+
