@@ -21,7 +21,7 @@ FROM adoptopenjdk/openjdk12:jre-12.0.1_12
 WORKDIR /helidon
 
 # Copy the binary built in the 1st stage
-COPY --from=build /helidon/target/fwa-backend.jar ./
+COPY --from=build /helidon/target/fwa-backend-sempach.jar ./
 COPY --from=build /helidon/target/libs ./libs
 ADD example_config ./config
 
