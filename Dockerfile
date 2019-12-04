@@ -27,4 +27,4 @@ ADD example_config ./config
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "fwa-backend.jar"]
+CMD ["java", "-jar", "fwa-backend-sempach.jar"]
