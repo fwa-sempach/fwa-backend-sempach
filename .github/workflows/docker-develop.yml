@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Publich Docker
-      uses: elgohr/Publish-Docker-Github-Action@2.9
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: fwa-sempach/fwa-backend-sempach/fwa-backend-sempach:latest
         # The login username for the registry
